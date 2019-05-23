@@ -3,15 +3,17 @@
                                
    To do this task, i used AWS EC2 Instances, and i Created kubernates cluster using Kops tool.
    
-  How to setup the Cluster in Aws: ( steps) 
-     1. choose the AWS region for deployment.
-     2. I used EC2 Ubuntu 18.04 version.
-     3.First install kubectl
-     4.then Download the kops
-     5. create a DNS , in route 53,- for identification of kubernetes cluster. (i created naveen.task.com)
-     6.attach a roles to the Ubuntu instance with required privileges
-     7.create a S3 bucket to store the artefacts required for the cluster
-     8.Define a cluster configuration and review, and finally create a cluster.
+  How to setup the Cluster in Aws: ( steps)
+   T
+          
+            1. choose the AWS region for deployment.
+            2. I used EC2 Ubuntu 18.04 version.
+            3.First install kubectl
+            4.then Download the kops
+            5. create a DNS , in route 53,- for identification of kubernetes cluster. (i created naveen.task.com)
+            6.attach a roles to the Ubuntu instance with required privileges
+            7.create a S3 bucket to store the artefacts required for the cluster
+            8.Define a cluster configuration and review, and finally create a cluster.
      
   Deploying the our Application: (steps)
   
